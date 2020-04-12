@@ -5,7 +5,7 @@ module.exports = {
     },
     extends: [
         'plugin:vue/essential',
-        '@vue/standard',
+        'eslint:recommended',
         '@vue/typescript/recommended'
     ],
     parserOptions: {
@@ -13,12 +13,8 @@ module.exports = {
     },
     rules: {
         indent: ['error', 4],
-        /* 'vue/script-indent': ['error', 4], */
         'vue/html-indent': ['error', 4],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'space-before-function-paren': 0,
-        'space-before-blocks': 0,
-        semi: 0
     }
 }
