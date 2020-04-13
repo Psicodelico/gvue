@@ -2,7 +2,6 @@
     <div class="home">
         <img alt="Vue logo" src="../assets/logo.png" />
         <HelloWorld msg="Welcome to Your Vue.js App" />
-        {{aaa}}
     </div>
 </template>
 
@@ -15,6 +14,6 @@ export default {
     components: {
         HelloWorld
     },
-    data: () => ({ aaa: 111 })
+    data: () => ({})
 };
 </script>
